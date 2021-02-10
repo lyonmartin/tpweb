@@ -5,6 +5,12 @@
         <meta charset="UTF-8"/>
         <title>TP meteo</title>
         <link rel="stylesheet" href="design.css"</link>
+        
+        <script type="text/javascript" defer="defer"
+        src="script.js"></script>
+        
+
+
 </head>
 
 <body>
@@ -16,29 +22,53 @@
 
 </header>
 
+<div id="menu">
+
+        <label for="choix_ville">Choisir une ville:</label>
+
+        <select name="ville" id="choix_ville">
+            <option value="">--Choisir une ville--</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Paris">Paris</option>
+            <option value="Marseille">Marseille</option>
+        </select>
+
+</div>
+
 </div>
 
 
-<div>
+<!-- <div class="flex"> -->
+
+<div class="flex"> 
+        
+        <div id="Lyon" classe='city'>        
 
         <h2>Lyon</h2>
             <p>8°, nuageux</p>
-            <img src="nuage.JPG" alt="nuageux">
+            <img src="nuage.JPG" alt="nuageux" width="150">
 
-</div>
+        </div>
 
-<div>
+        <div id="Paris" classe='city'>        
+
         <h2>Paris</h2>
             <p>10°, nuageux</p>
-            <img src="nuage.JPG" alt="nuageux">
+            <img src="nuage.JPG" alt="nuageux" width="150">
+
+        </div>
+
+        <div id="Marseille" classe='city'>        
+
+        <h2>Marseille</h2>
+             <p>12°, ensoleillé</p>
+            <img src="soleil2.JPG" alt="ensoleillé" width="150">
+
+        </div>
 
 </div>
 
-<div>
-        <h2>Marseille</h2>
-             <p>12°, ensoleillé</p>
-            <img src="soleil2.JPG" alt="ensoleillé">
-        </div>
+</div>
 
 
 <div>
