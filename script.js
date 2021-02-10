@@ -1,6 +1,5 @@
 
-let villeCourante = "Lyon"
-// let villeCourante = "Paris";
+let villeCourante = "Lyon";
 function showCity() { 
     console.log(villeCourante); }
 
